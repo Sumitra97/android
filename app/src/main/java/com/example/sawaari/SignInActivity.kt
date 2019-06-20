@@ -18,7 +18,7 @@ class SignInActivity : AppCompatActivity() {
             startActivity(intent)
         }
             findViewById<Button>(R.id.email_sign_in_button).setOnClickListener {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, CityLoad::class.java)
                 startActivity(intent)
         }
     }
